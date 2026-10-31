@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="kaomoji pool">
+  <rect width="64" height="64" rx="14" fill="#1b1e26"/>
+  <rect x="1" y="1" width="62" height="62" rx="13.5" fill="none" stroke="#3a4051" stroke-width="1.5"/>
+  <text x="32" y="31" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="15" fill="#ffd166" text-anchor="middle" dominant-baseline="middle">(&#180;&#65381;&#969;&#65381;`)</text>
+  <text x="32" y="49" font-family="system-ui, sans-serif" font-size="9" letter-spacing="0.6" fill="#8b93a7" text-anchor="middle" dominant-baseline="middle">KAOMOJI</text>
+</svg>
