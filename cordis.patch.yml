@@ -1,0 +1,14 @@
+# dsh-kaomoji-pool bundle patch
+#
+# 挂一个 host 插件，向会话暴露两个工具：
+#   kaomoji(mood?, count?)  —— 从对应情绪桶里取「最近没出现过」的候选
+#   kaomoji_stats()         —— 看每个桶用了多少、最近用过哪些
+#
+# 词库随包分发（data/catalog.json），使用记录写
+#   <DSH_HOME>/storages/kaomoji-pool/state.json
+#
+# id 必须与 index.js 里 `export const name` 一致；name 必须是真实包名，
+# 写成别名会导致 Cannot find package。
+- insert:
+    - id: kaomoji-pool
+      name: dsh-kaomoji-pool
