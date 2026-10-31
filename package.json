@@ -1,0 +1,37 @@
+{
+  "name": "dsh-kaomoji-pool",
+  "version": "0.1.0",
+  "description": "本地颜文字库 + 去重取词工具：让模型取到「最近没出现过」的颜文字，而不是反复用训练偏好里那几句。",
+  "icon": "icon.svg",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "data/",
+    "locale/",
+    "icon.svg",
+    "README.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "keywords": [
+    "dsh-plugin",
+    "dsh-bundle",
+    "deepseek-harness",
+    "kaomoji",
+    "emoticon"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=22.13.0"
+  }
+}
