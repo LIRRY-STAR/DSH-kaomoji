@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "title": "Kaomoji Pool",
+    "description": "A local collection of 1,500+ kaomoji across 14 mood buckets, with sampling that skips recently used entries so the same handful does not keep coming back."
+  },
+  "tool": {
+    "kaomoji": {
+      "name": "Pick kaomoji",
+      "summary": "Draw not-recently-used kaomoji for a given mood"
+    },
+    "kaomoji_stats": {
+      "name": "Kaomoji usage",
+      "summary": "Inspect bucket sizes and recent usage"
+    }
+  }
+}
